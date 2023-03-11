@@ -1,0 +1,167 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+
+	<title>Owl Test with Custom Nav</title>
+
+	<link rel="stylesheet" href="owl.carousel.min.css" />
+
+	<style type="text/css" media="screen">
+		* { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
+
+		html,
+		body,
+		.slider,
+		.owl-carousel,
+		.owl-stage-outer,
+		.owl-stage,
+		.owl-item,
+		.slide { height: 100%; overflow: hidden; }
+
+		.slide { position: relative; }
+		.slide h1 { font-family: monospace; font-size: 3em; line-height: 1; color: #000; text-align: center; position: absolute; top: 50%; left: 0; right: 0; margin-top: -1.5em; }
+
+		.slide1 { background-color: chocolate; }
+		.slide2 { background-color: coral; }
+		.slide3 { background-color: crimson; }
+		.slide4 { background-color: aquamarine; }
+		.slide5 { background-color: darkcyan; }
+		.slide6 { background-color: darkolivegreen; }
+		.slide7 { background-color: maroon; }
+		.slide8 { background-color: palevioletred; }
+		.slide9 { background-color: sienna; }
+		.slide10 { background-color: aqua; }
+
+		.slider .owl-item { -webkit-backface-visibility: visible; backface-visibility: visible; }
+
+		.slider-nav { position: absolute; bottom: 0; left: 0; right: 0; z-index: 10; background-color: #fff; }
+		
+		.thumbs { width: 100%; display: table; table-layout: fixed; padding: 0; margin: 0; border-left: 3px solid #000; }
+
+		.thumb { width: 5%; display: table-cell; vertical-align: middle; position: relative; border: 3px solid; border-left: 0; cursor: pointer; background-color: #000; }
+		.thumb img { width: 100%; height: auto; display: block; }
+		.thumb span { font-family: monospace; font-size: 1.2em; line-height: 1; color: #fff; text-align: center; font-weight: bold; text-decoration: none; display: block; position: absolute; top: 50%; left: 0; right: 0; padding: 1em 0; margin-top: -1.6em; }
+		
+		.thumb:hover span,
+		.thumb.active span { color: #fff; border-color: #000; background-color: #000; }
+	</style>
+</head>
+<body>
+	<div class="slider">
+		<div class="owl-carousel">
+			<div class="slide slide1">
+				<h1>Slide 1</h1>
+			</div><!-- /.slide slide1 -->
+			
+			<div class="slide slide2">
+				<h1>Slide 2</h1>
+			</div><!-- /.slide slide2 -->
+			
+			<div class="slide slide3">
+				<h1>Slide 3</h1>
+			</div><!-- /.slide slide3 -->
+			
+			<div class="slide slide4">
+				<h1>Slide 4</h1>
+			</div><!-- /.slide slide4 -->
+			
+			<div class="slide slide5">
+				<h1>Slide 5</h1>
+			</div><!-- /.slide slide5 -->
+			
+			<div class="slide slide6">
+				<h1>Slide 6</h1>
+			</div><!-- /.slide slide6 -->
+			
+			<div class="slide slide7">
+				<h1>Slide 7</h1>
+			</div><!-- /.slide slide7 -->
+			
+			<div class="slide slide8">
+				<h1>Slide 8</h1>
+			</div><!-- /.slide slide8 -->
+			
+			<div class="slide slide9">
+				<h1>Slide 9</h1>
+			</div><!-- /.slide slide9 -->
+			
+			<div class="slide slide10">
+				<h1>Slide 10</h1>
+			</div><!-- /.slide slide10 -->
+		</div><!-- /.owl-carousel -->
+
+		<div class="slider-nav">
+			<div class="thumbs">
+				<div class="thumb">
+					<span>1</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+				
+				<div class="thumb">
+					<span>2</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+				
+				<div class="thumb">
+					<span>3</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+				
+				<div class="thumb">
+					<span>4</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+				
+				<div class="thumb">
+					<span>5</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+				
+				<div class="thumb">
+					<span>6</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+				
+				<div class="thumb">
+					<span>7</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+				
+				<div class="thumb">
+					<span>8</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+				
+				<div class="thumb">
+					<span>9</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+				
+				<div class="thumb">
+					<span>10</span>
+
+					<img src="https://33.media.tumblr.com/avatar_8ac1a1a1f5fd_128.png" alt="" />
+				</div><!-- /.thumb -->
+			</div><!-- /.thumbs -->
+		</div><!-- /.slider-nav -->
+	</div><!-- /.slider -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<script src="owl.carousel.min.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    
+    height: 1000px;
+}
+
+.abc{
+   background-color:black;
+   
+    
+    
+}
+.pqr{
+    background-color: pink;
+    margin-right: 10px;
+    
+    
+    
+    
+    
+}
+.efg{
+    
+    background-color:violet;
+
+}
+.child{
+    height: 300px;
+    margin-top: 10%;
+    background-color: black;
+    padding-right: 0;
+    
+    
+}
+.new{
+    border: solid;
+    height: 130px;
+}
+.new1{
+    border: solid;
+    height: 130px;
+    margin-top: 20px;
+}
+.child1{
+    height: 300px;
+    
+    
+    
+}
+.new3{
+    border: solid;
+    height: 140px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.parent{
+    
+    
+}
+.new4{
+    border: solid;
+    height: 140px;
+    margin-left: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.new5{
+    border: solid;
+    height: 140px;
+    margin-left: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.new{
+    margin-top: 10px;
+}
+
